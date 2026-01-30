@@ -63,7 +63,6 @@ function updateUI() {
 
 let events = [];
 
-// add new event
 function addEvent() {
     const title = document.getElementById("eventTitle").value;
     const date = document.getElementById("eventDate").value;
@@ -80,7 +79,6 @@ function addEvent() {
     document.getElementById("eventDate").value = "";
 }
 
-// refresh events list
 function updateEvents() {
     const list = document.getElementById("eventList");
     list.innerHTML = "";
@@ -96,5 +94,6 @@ function updateEvents() {
         list.appendChild(li);
     });
 }
-// background effect trial//
+
+
 
